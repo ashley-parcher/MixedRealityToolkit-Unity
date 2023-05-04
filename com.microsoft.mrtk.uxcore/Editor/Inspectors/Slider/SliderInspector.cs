@@ -64,13 +64,11 @@ namespace Microsoft.MixedReality.Toolkit.Editor
 
                 EditorGUI.BeginChangeCheck();
 
-                Vector3 newStartPosition = Handles.FreeMoveHandle(startPos,
-                    Quaternion.identity,
+                var fmh_68_21_638188231813944012 = Quaternion.identity; Vector3 newStartPosition = Handles.FreeMoveHandle(startPos,
                     handleSize,
                     Vector3.zero,
                     Handles.SphereHandleCap);
-                Vector3 newEndPosition = Handles.FreeMoveHandle(endPos,
-                    Quaternion.identity,
+                var fmh_73_21_638188231813969505 = Quaternion.identity; Vector3 newEndPosition = Handles.FreeMoveHandle(endPos,
                     handleSize,
                     Vector3.zero,
                     Handles.SphereHandleCap);
