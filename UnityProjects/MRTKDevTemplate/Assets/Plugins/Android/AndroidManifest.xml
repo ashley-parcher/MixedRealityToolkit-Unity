@@ -18,4 +18,11 @@
   <uses-permission android:name="com.magicleap.permission.SPACE_MANAGER" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="com.magicleap.permission.SPATIAL_MAPPING" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="com.magicleap.permission.EYE_TRACKING" />
+  <uses-permission android:name="com.magicleap.permission.PUPIL_SIZE" />
+  <uses-permission android:name="com.magicleap.permission.VOICE_INPUT" />
+  <uses-permission android:name="com.magicleap.permission.DEPTH_CAMERA" />
+  <uses-permission android:name="com.magicleap.permission.EYE_CAMERA" />
+  <uses-permission android:name="com.magicleap.permission.SPACE_IMPORT_EXPORT" />
 </manifest>
