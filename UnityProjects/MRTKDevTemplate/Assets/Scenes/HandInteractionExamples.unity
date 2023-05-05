@@ -4548,6 +4548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -4632,6 +4633,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &730431820
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,7 +4899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7781529056550460866, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4883,7 +4907,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7781529056550460865, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1551252957}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7791286047433672956, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 1620275058381846878, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 373542711749969831, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 1365711180369608944, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5299172227394764703, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4653753136551006344, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3142284408293352098, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8930662638181297589, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 6575785689631065727, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 6395775040214023697, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
 --- !u!1 &782737665
 GameObject:
@@ -7101,6 +7155,10 @@ PrefabInstance:
       propertyPath: recenterXROriginAtStart
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8229452813972726282, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 3506622006363394824, guid: 774356060c9021d4eb3d0307c9bf4276, type: 3}
     - target: {fileID: 8411242613250474300, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7154,6 +7212,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
+--- !u!20 &966361431 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8411242614738863295, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
+  m_PrefabInstance: {fileID: 966361430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1001175447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7940,6 +8003,10 @@ PrefabInstance:
 
         BasicPressableButtonVisuals.cs'
       objectReference: {fileID: 0}
+    - target: {fileID: 8084989196684289760, guid: e8c3ea3c1046f8b4bbd682c2b7a0e4fe, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 966361431}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14195,6 +14262,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2963852276419858582, guid: a31291e7cd07cc34f9b29ec2a6ab7224, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 966361431}
     - target: {fileID: 3484184696762796712, guid: a31291e7cd07cc34f9b29ec2a6ab7224, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -14641,8 +14712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80f85af46f9bddd4ea78f11cee5e3b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handType: 3
-  proximityType: 3
+  handType: -1
+  proximityType: -1
   executionOrder: 0
   minimumScale: {x: 0.2, y: 0.2, z: 0.2}
   maximumScale: {x: 2, y: 2, z: 2}
@@ -18847,6 +18918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasRoot
       objectReference: {fileID: 0}
+    - target: {fileID: 2578649064399513029, guid: 262b70b02609c85439cdaf12c4713ec3, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 966361431}
     - target: {fileID: 2578649064399513030, guid: 262b70b02609c85439cdaf12c4713ec3, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
