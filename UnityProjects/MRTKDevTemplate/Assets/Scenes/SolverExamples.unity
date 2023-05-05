@@ -2908,6 +2908,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5301225688511314939, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
+      propertyPath: recenterXROriginAtStart
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8411242613250474300, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2930,15 +2934,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8411242613250474300, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8411242613250474300, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8411242613250474300, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8411242613250474300, guid: 86f9e534ed1ce2a4f821aa43899ffe71, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
